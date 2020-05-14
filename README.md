@@ -8,7 +8,7 @@ This is a space exploration game with bullet-hell gameplay and a polar mechanic 
 
 This is a game I've wanted to make for a long time...since college actually. Also, I'm hoping the gameplay will help with designing the space combat system of _Voidcallers_.
 
-## Game Design Document
+## 🕹 Game Design Document
 
 The GDD will be added to the Wiki of this project. I'll update this with a link.
 
