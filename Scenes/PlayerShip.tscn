@@ -7,6 +7,7 @@
 extents = Vector2( 5, 3 )
 
 [node name="PlayerShip" type="KinematicBody2D"]
+collision_mask = 2
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -17,7 +18,10 @@ position = Vector2( -2, 0 )
 shape = SubResource( 1 )
 
 [node name="FirePointLeft" type="Node2D" parent="."]
-position = Vector2( 2.5, -4.5 )
+position = Vector2( 2, -4.5 )
 
 [node name="FirePointRight" type="Node2D" parent="."]
-position = Vector2( 2.5, 4.5 )
+position = Vector2( 2, 4.5 )
+
+[node name="FirePointPrimary" type="Node2D" parent="."]
+position = Vector2( 8, 0 )
