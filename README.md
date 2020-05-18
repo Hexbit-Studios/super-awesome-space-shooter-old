@@ -2,7 +2,7 @@
 
 ## 🤨 What is this?
 
-This is a space exploration game with bullet-hell gameplay and a polar mechanic inspired by games like _Outland_ and _Ikaruga_. Pleyers will explore and navigate dangerous zones in space and fight off fearsome enemies and bosses.
+This is a space exploration game with bullet hell gameplay and a polar mechanic inspired by games like _Outland_ and _Ikaruga_. Players will explore and navigate dangerous zones in space and fight off fearsome enemies and bosses.
 
 ## 🤔 Why?
 
