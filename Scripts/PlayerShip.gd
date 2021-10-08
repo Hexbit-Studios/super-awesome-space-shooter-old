@@ -7,16 +7,15 @@ export(Vector2) var STARTING_DIRECTION = Vector2(1, 0)
 
 onready var primary_fire_point = $FirePointPrimary
 
-var direction = Vector2.ZERO
-var unit_circle_direction = Vector2.ZERO
-var velocity = Vector2.ZERO
-var prev_unit_circle_direction
+var direction := Vector2.ZERO
+var unit_circle_direction := Vector2.ZERO
+var velocity := Vector2.ZERO
+var prev_unit_circle_direction:Vector2
 
 func _ready():
 	direction = STARTING_DIRECTION
 
 func _process(_delta):
-
 	var horizontal = Input.get_action_strength("move_right") - Input.get_action_strength("move_left")
 	var vertical = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	direction = Vector2(horizontal, vertical).clamped(1)
